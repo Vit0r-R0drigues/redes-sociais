@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/pacote-d013/imagens/35783590-ai-gerado-espaco-tematico-papeis-de-parede-papeis-de-parede-colecao-do-astronauta-olhando-as-a-lua-gratis-foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    height: 100%;
+
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    height: 627px;
+    width: 311px;
+    background-image: url(../imagens/pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 593px;
+    
+}
+
+section#sociais{
+    text-align: center;
+}
+
+section#sociais img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    display: inline-block;
+    
+}
+
+section#sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate( -3px, -3px);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.473);
+    transition: transform 0.3s, border 0.19s;
+}
